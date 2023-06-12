@@ -1,0 +1,68 @@
+body {
+  background: #0cebeb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(9, 146, 117, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 35px;
+  color: rgb(22, 158, 140);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(5, 172, 163);
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  width: 90px;
+  background-color: #70f0c5;
+  color: rgb(11, 102, 87);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3eebbf;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 5px;
+}
+
